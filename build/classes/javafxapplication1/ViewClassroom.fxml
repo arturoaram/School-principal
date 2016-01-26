@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.ViewClassroomController">
+   <children>
+      <Label layoutX="93.0" layoutY="25.0" prefHeight="47.0" prefWidth="151.0" text="Select Classroom" textAlignment="CENTER" textFill="#6b2b2b">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="103.0" text="Classrooms">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelClassroom" layoutX="59.0" layoutY="181.0" mnemonicParsing="false" onAction="#cancelClassroomButton" text="Cancel" />
+      <Button fx:id="viewEditButton" layoutX="225.0" layoutY="181.0" mnemonicParsing="false" onAction="#viewEditClassroomButton" text="View/Modify" />
+      <ListView fx:id="listView" layoutX="175.0" layoutY="64.0" prefHeight="100.0" prefWidth="138.0" />
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
